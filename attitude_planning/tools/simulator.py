@@ -2,6 +2,7 @@ import requests
 import json
 import re
 import time
+import sys
 from enum import Enum
 from sgp4.api import Satrec, jday
 import numpy as np
