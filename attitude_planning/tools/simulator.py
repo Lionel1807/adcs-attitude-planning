@@ -108,7 +108,7 @@ class TensorTechSimulation:
         if response.status_code != 200 and vital:
             print(f"Request failed with status code {response.status_code}")
             print(response.text)
-            exit(1)
+            sys.exit(1)
 
         return response
     
